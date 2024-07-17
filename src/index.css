@@ -1,0 +1,23 @@
+.fondo{
+    background-image: url('/img/pokeFondo.png');
+    background-size: cover;
+    background-position: center; 
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.gif-responsive {
+    width: 100%;
+    max-width: 500px; 
+    height: auto;
+    display: block;
+    margin: 0 auto; 
+}
+
+.card-hover{
+    transition: all .25s ease;
+}
+
+.card-hover:hover{
+    transform: translate(-4px) scale(1.01);
+}
